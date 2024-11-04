@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // Redirect to /login if user accesses root
+    return redirect('/login');
 });
+
+// Route for the login page
+Route::get('/login', [AuthController::class, 'login'])->name('login');
