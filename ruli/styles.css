@@ -25,6 +25,9 @@ body {
     align-items: center;
     color: white;
     height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -78,6 +81,10 @@ body {
     font-weight: 500;
 }
 
+.logout-btn:hover {
+    background-color: #DEDEDE;
+}
+
 /* Sub Menu Styles */
 .sub-menu-container {
     background: var(--gradient-bg);
@@ -95,11 +102,10 @@ body {
 
 .menu-buttons {
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
 }
 
 .sub-menu button {
-    background-color: white;
     border: none;
     padding: 0.4rem 1.2rem;
     border-radius: 20px;
@@ -108,8 +114,32 @@ body {
     color: var(--primary-color);
 }
 
+.send-btn {
+    background-color: white;
+}
+
+.ask-btn {
+    background-color: #DEDEDE;
+}
+
+.contact-btn {
+    background-color: #DEDEDE;
+}
+
+.ask-btn:hover {
+    background-color: #DEDEDE;
+}
+
+.contact-btn:hover {
+    background-color: #DEDEDE;
+}
+
 .transfer-history {
-    opacity: 0.9;
+    background-color: white;
+}
+
+.transfer-history:hover {
+    background-color: #DEDEDE;
 }
 
 /* Main Content Styles */
@@ -284,4 +314,12 @@ body {
 
 .notification:hover, .profile:hover {
     color: #ddd;
+}
+
+.next-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.add-btn:hover {
+    background-color: var(--secondary-color);
 }
