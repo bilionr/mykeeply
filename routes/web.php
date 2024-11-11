@@ -21,3 +21,14 @@ Route::get('/', function () {
 
 // Route for the login page
 Route::get('/login', [AuthController::class, 'login'])->name('login');
+
+Route::get('/nominal', [AuthController::class, 'nominal']);
+
+Route::get('/index', [AuthController::class, 'index']);
+
+Route::get('/tambahNomor', [AuthController::class, 'tambahNomor']);
+
+// buram billy
+// Route::get('/tambahNomor', [AuthController::class, 'tambahNomor'])->name('tambahNomor');
+
+

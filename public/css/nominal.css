@@ -1,0 +1,115 @@
+/* Import existing styles */
+@import url('styles.css');
+
+/* Additional styles specific to nominal.html */
+.transfer-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipient-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.recipient-initial {
+    width: 60px;
+    height: 60px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.recipient-details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+    color: #333;
+}
+
+.recipient-details p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.amount-input {
+    text-align: center;
+    margin: 2rem 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency {
+    font-size: 1.5rem;
+    color: #333;
+    margin-right: 0.5rem;
+}
+
+.amount-field {
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    color: #333;
+    width: 100px;
+    outline: none;
+}
+
+.message-field {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.next-btn, .cancel-btn {
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 60%;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.next-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.cancel-btn {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.next-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.cancel-btn:hover {
+    background-color: var(--secondary-color);
+}
