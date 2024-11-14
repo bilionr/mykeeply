@@ -14,11 +14,15 @@ class AuthController extends Controller
         return view("nominal");
     }
 
-    public function index(){
-        return view("index");
+    public function pilihTujuan(){
+        return view("pilihTujuan");
     }
 
     public function tambahNomor(){
         return view("tambahNomor");
+    }
+
+    public function history(){
+        return view("history");
     }
 }

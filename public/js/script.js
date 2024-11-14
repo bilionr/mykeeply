@@ -44,7 +44,7 @@ nextBtn.addEventListener('click', () => {
     if (selectedCard) {
         // Jika ada kontak yang dipilih, navigasi ke halaman berikutnya
         console.log("Navigating to nominal.html");
-        window.location.href = 'nominal.html';
+        window.location.href = "{{route('nominal.blade.php')}}";
     } else {
         // Jika tidak ada kontak yang dipilih, tampilkan alert
         console.log("No contact selected, showing alert.");
