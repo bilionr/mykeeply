@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .icon img {
+    width: 19px;
+    height: 21px;
+  }
+  
+  .logout {
+    color: #0b0c6e;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .logout:hover {
+    color: #cccccc;
+    background-color: #f0f0f0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000000;
+  }
+  
+  .pin-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #0b0c6e;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .pin-input input {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .toggle-visibility {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .toggle-visibility img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  

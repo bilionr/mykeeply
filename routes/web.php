@@ -20,6 +20,9 @@ Route::get('/', function () {
 });
 
 // Route for the login page
+
+Route::get('/layout', [AuthController::class, 'layout'])->name('layout');
+
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 
 Route::get('/nominal', [AuthController::class, 'nominal'])->name('nominal');
@@ -31,6 +34,9 @@ Route::get('/tambahNomor', [AuthController::class, 'tambahNomor'])->name('tambah
 Route::get('/history', [AuthController::class, 'history'])->name('history');
 
 Route::get('/halamanUtama', [AuthController::class, 'halamanUtama'])->name('halamanUtama');
+
+Route::get('/isipin', [AuthController::class, 'isipin'])->name('isipin');
+
 
 
 

@@ -29,4 +29,12 @@ class AuthController extends Controller
     public function halamanUtama(){
         return view("halamanUtama");
     }
+
+    public function isipin(){
+        return view("isipin");
+    }
+
+    public function layout(){
+        return view("layouts.layout");
+    }
 }
