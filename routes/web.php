@@ -44,9 +44,13 @@ Route::get('/halamanUtama', function () {
     return view('halamanUtama');
 })->name('halamanUtama');
 
-Route::get('/transfer', function () {
-    return view('transfer');
-})->name('transfer');
+Route::get('/transfer/confirm', function () {
+    return view('transfer.confirm');
+})->name('transfer.confirm');
+
+Route::get('/transfer/success', function () {
+    return view('transfer.success');
+})->name('transfer.success');
 
 
 
