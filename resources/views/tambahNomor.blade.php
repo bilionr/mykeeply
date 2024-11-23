@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Nomor Tujuan - MyKeep</title>
-    <link rel="stylesheet" href="{{asset('css/tambahNomor.css')}}">
-</head>
+@extends('layouts.app')
+
+<link rel="stylesheet" href="{{asset('css/tambahNomor.css')}}">
+
 <body>
     <nav class="navbar">
         <img src="{{asset('images/mykeep.png')}}" alt="MyKeep Logo" class="logo">
@@ -34,7 +30,7 @@
 
     <main class="main-content">
         <h1>Tambah Nomor Tujuan</h1>
-        
+
         <form class="add-contact-form">
             <div class="form-group">
                 <label for="bank">Nama Bank</label>
@@ -105,22 +101,22 @@ backBtn.addEventListener('click', () => {
 // Form submission handler
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    
+
     const bank = document.getElementById('bank').value;
     const accountNumber = document.getElementById('account').value;
-    
+
     // Basic validation
     if (!bank || !accountNumber) {
         alert('Silakan lengkapi semua field');
         return;
     }
-    
+
     // You can add more validation here (e.g., account number format)
     if (!/^\d+$/.test(accountNumber)) {
         alert('Nomor rekening hanya boleh berisi angka');
         return;
     }
-    
+
     // Here you would typically send this data to a server
     // For now, we'll just simulate success and redirect
     alert('Nomor tujuan berhasil ditambahkan');
