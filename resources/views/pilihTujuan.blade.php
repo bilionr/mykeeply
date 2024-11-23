@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transfer Uang</title>
-    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-
-
+@extends('layouts.app')
 
 <body>
 
@@ -21,7 +11,7 @@
         </div>
         <div class="user-menu">
             <i class="fas fa-bell notification" aria-label="Notification"></i>
-            <i class="fas fa-user profile" aria-label="Profile"></i>            
+            <i class="fas fa-user profile" aria-label="Profile"></i>
             <button class="logout-btn">Log Out</button>
         </div>
     </nav>
@@ -40,7 +30,7 @@
     <main class="main-content">
         <h1>Kirim Uang</h1>
         <input type="text" class="search-box" placeholder="Nama, nomor telp">
-        
+
         <div class="contact-list">
             <div class="contact-card">
                 <div class="contact-initial">SH</div>
@@ -49,7 +39,7 @@
                     <p>BNI - 47230300</p>
                 </div>
             </div>
-            
+
             <div class="contact-card">
                 <div class="contact-initial">DT</div>
                 <div class="contact-info">
@@ -94,7 +84,7 @@
         <div class="action-buttons">
             <button class="next-btn">Berikutnya</button>
             <button class="add-btn">Tambah Nomor Tujuan</button>
-            
+
         </div>
     </main>
 
@@ -142,11 +132,11 @@ console.log("nextBtn:", nextBtn);
 // Fungsi pencarian kontak
 searchBox.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
-    
+
     contactCards.forEach(card => {
         const name = card.querySelector('h3').textContent.toLowerCase();
         const info = card.querySelector('p').textContent.toLowerCase();
-        
+
         if (name.includes(searchTerm) || info.includes(searchTerm)) {
             card.style.display = 'flex';
         } else {
@@ -171,7 +161,7 @@ contactCards.forEach(card => {
 // Event listener untuk tombol "Berikutnya"
 nextBtn.addEventListener('click', () => {
     const selectedCard = document.querySelector('.contact-card[data-selected="true"]');
-    
+
     if (selectedCard) {
         // Jika ada kontak yang dipilih, navigasi ke halaman berikutnya
         console.log("Navigating to nominal.html");

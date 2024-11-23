@@ -1,9 +1,8 @@
-@extends('layouts.layout')
+@extends('layouts.app')
 
 <link rel="stylesheet" href="{{asset('css/history.css')}}">
 
 @section('content')
-    
 
     <div class="month-container">
         <button class="month-button active">Jan</button>
@@ -22,7 +21,7 @@
 
     <script>
         const buttons = document.querySelectorAll('.month-button');
-        
+
         buttons.forEach(button => {
         button.addEventListener('click', () => {
             // Remove active class from all buttons
@@ -36,7 +35,7 @@
 
     <div class="containerd">
         <div class="card">
-            
+
             <h1>20 September 2024</h1>
             <hr class="solid">
 
@@ -89,9 +88,9 @@
             </div>
 
         </div>
-        
-        
-            
+
+
+
 
         <div class="card">
             <h1>13 September 2024</h1>
@@ -201,5 +200,5 @@ document.querySelector('cancel-btn').addEventListener('click', () => {
     window.location.href = 'index.html';
 });
 </script>
-  
+
 @endsection
