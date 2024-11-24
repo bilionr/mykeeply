@@ -27,4 +27,24 @@
     </div>
 </div>
 
+<script>
+
+// Button handlers
+document.querySelector('.next-btn').addEventListener('click', () => {
+    // Handle next step of transfer process
+    // This would typically involve form validation and navigation
+    window.location.href = "{{route('transfer.confirm')}}";
+});
+
+document.querySelector('.cancel-btn').addEventListener('click', () => {
+    // Return to previous page
+    window.history.back();
+});
+
+
+
+</script>
+
 @endsection
+
+

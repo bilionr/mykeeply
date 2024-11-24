@@ -15,6 +15,7 @@
 <div class="sub-menu-container">
     <div class="sub-menu">
         <div class="menu-buttons">
+            <a href="{{route('halamanUtama')}}"></a>
             <button class="send-btn">Kirim</button>
             <button class="ask-btn">Minta</button>
             <button class="contact-btn">Kontak</button>

@@ -50,7 +50,7 @@
             <!-- Actions -->
             <div class="d-flex justify-content-between mt-4">
                 <button class="btn btn-outline-secondary w-45">Batalkan</button>
-                <a href="{{ route('transfer.success') }}" class="btn btn-primary w-45">Transfer</a>
+                <a href="{{ route('isipin') }}" class="btn btn-primary w-45">Transfer</a>
             </div>
         </div>
     </div>
