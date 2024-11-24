@@ -7,7 +7,7 @@
     </div>
     <div class="user-menu">
         <i class="fas fa-bell notification" aria-label="Notification"></i>
-        <i class="fas fa-user profile" aria-label="Profile"></i>            
+        <i class="fas fa-user profile" aria-label="Profile"></i>
         <button class="logout-btn">Log Out</button>
     </div>
 </nav>
@@ -22,6 +22,6 @@
         <a href="{{route('history')}}">
             <button class="transfer-history">Riwayat Transfer</button>
         </a>
-        
+
     </div>
 </div>

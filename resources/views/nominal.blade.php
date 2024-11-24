@@ -1,4 +1,5 @@
-@extends('layouts.layout')
+@extends('layouts.app')
+
 <link rel="stylesheet" href="{{asset('css/nominal.css')}}">
 
 @section('content')
@@ -10,7 +11,7 @@
             <p>BNI - 47230300</p>
         </div>
     </div>
-    
+
     <div class="amount-input">
         <span class="currency">Rp.</span>
         <input type="text" id="amount" value="20.000" class="amount-field">
@@ -25,5 +26,5 @@
         <button class="cancel-btn">Batalkan</button>
     </div>
 </div>
-  
+
 @endsection

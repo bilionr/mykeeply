@@ -20,27 +20,39 @@ Route::get('/', function () {
 });
 
 // Route for the login page
+Route::get('/login', function () {
+    return view('auth.login');
+})->name('login');
 
-Route::get('/layout', [AuthController::class, 'layout'])->name('layout');
+Route::get('/nominal', function () {
+    return view('nominal');
+})->name('nominal');
 
-Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::get('/pilihTujuan', function () {
+    return view('pilihTujuan');
+})->name('pilihTujuan');
 
-Route::get('/nominal', [AuthController::class, 'nominal'])->name('nominal');
+Route::get('/tambahNomor', function () {
+    return view('tambahNomor');
+})->name('tambahNomor');
 
-Route::get('/pilihTujuan', [AuthController::class, 'pilihTujuan'])->name('pilihTujuan');
+Route::get('/history', function () {
+    return view('history');
+})->name('history');
 
-Route::get('/tambahNomor', [AuthController::class, 'tambahNomor'])->name('tambahNomor');
+Route::get('/halamanUtama', function () {
+    return view('halamanUtama');
+})->name('halamanUtama');
 
-Route::get('/history', [AuthController::class, 'history'])->name('history');
+Route::get('/transfer/confirm', function () {
+    return view('transfer.confirm');
+})->name('transfer.confirm');
 
-Route::get('/halamanUtama', [AuthController::class, 'halamanUtama'])->name('halamanUtama');
-
-Route::get('/isipin', [AuthController::class, 'isipin'])->name('isipin');
-
+Route::get('/transfer/success', function () {
+    return view('transfer.success');
+})->name('transfer.success');
 
 
 
 // buram billy
 // Route::get('/tambahNomor', [AuthController::class, 'tambahNomor'])->name('tambahNomor');
-
-
