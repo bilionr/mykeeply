@@ -113,3 +113,38 @@
 .cancel-btn:hover {
     background-color: var(--secondary-color);
 }
+
+/* Additional styles for the new 'Jenis Transfer' section */
+.transfer-type {
+    margin-top: 1.5rem;
+    /* Memberikan jarak antara elemen lainnya */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.transfer-type label {
+    font-size: 1rem;
+    /* Ukuran font yang lebih besar dan lebih mudah dibaca */
+    color: #333;
+    font-weight: bold;
+}
+
+.transfer-select {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Styling for the dropdown when it's focused */
+.transfer-select:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    background-color: #f7f7f7;
+}

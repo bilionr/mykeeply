@@ -21,6 +21,14 @@
         <input type="text" placeholder="Pesan" class="message-field">
     </div>
 
+    <div class="transfer-type">
+        <select id="transfer-type" class="transfer-select">
+            <option value="" disabled selected>Jenis Transfer</option>
+            <option value="kekayaan">Transfer Kekayaan</option>
+            <option value="pemindahan-dana">Transfer Pemindahan Dana</option>
+        </select>
+    </div>
+
     <div class="action-buttons">
         <button class="next-btn">Berikutnya</button>
         <button class="cancel-btn">Batalkan</button>

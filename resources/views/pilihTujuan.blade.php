@@ -32,13 +32,16 @@
         <input type="text" class="search-box" placeholder="Nama, nomor telp">
 
         <div class="contact-list">
-            <div class="contact-card">
-                <div class="contact-initial">SH</div>
-                <div class="contact-info">
-                    <h3>SUGENG HARIANTO</h3>
-                    <p>BNI - 47230300</p>
-                </div>
-            </div>
+            <a href="{{ route('nominal') }}" style="text-decoration: none; color: inherit;">
+                <div class="contact-card">
+                    <div class="contact-initial">SH</div>
+                        <div class="contact-info">
+                            <h3>SUGENG HARIANTO</h3>
+                            <p>BNI - 47230300</p>
+                        </div>
+                    </div>
+            </a>
+
 
             <div class="contact-card">
                 <div class="contact-initial">DT</div>

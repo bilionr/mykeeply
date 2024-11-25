@@ -29,11 +29,11 @@
                     <tbody>
                         <tr>
                             <td>Nominal</td>
-                            <td class="text-end">Rp XXXXX</td>
+                            <td class="text-end">Rp 20.000</td>
                         </tr>
                         <tr>
                             <td>Biaya Transaksi</td>
-                            <td class="text-end">Rp XXXXX</td>
+                            <td class="text-end">Rp 1.500</td>
                         </tr>
                     </tbody>
                 </table>
@@ -43,7 +43,7 @@
             <div class="border-top pt-3">
                 <h6 class="d-flex justify-content-between">
                     <span>TOTAL</span>
-                    <span>Rp XXXXX</span>
+                    <span>Rp 21.500</span>
                 </h6>
             </div>
 

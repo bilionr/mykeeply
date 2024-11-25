@@ -16,17 +16,17 @@
             <!-- Main Information -->
             <div class="d-flex align-items-center p-3 bg-light rounded mb-4">
                 <div class="rounded-circle bg-secondary text-white d-flex justify-content-center align-items-center" style="width: 50px; height: 50px; font-weight: bold;">
-                    MR
+                    SH
                 </div>
                 <div class="ms-3 flex-grow-1">
                     <p class="mb-0">Transfer to</p>
-                    <h6 class="mb-0">Muhammad Rifli Mustari</h6>
-                    <p class="mb-0 text-muted">Bank CIMB Niaga 47273893</p>
+                    <h6 class="mb-0">Sugeng Harianto</h6>
+                    <p class="mb-0 text-muted">BNI 47230300</p>
                 </div>
                 <div class="text-end">
                     <p class="mb-0 text-muted">Nomor Referensi</p>
                     <h6 class="mb-0">082137809092</h6>
-                    <h6 class="mb-0 text-primary">IDR 10,000.00</h6>
+                    <h6 class="mb-0 text-primary">Rp 20.000</h6>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@
                         <td class="text-end">Xtra Savers IB Wad</td>
                     </tr>
                     <tr>
-                        <td>Deskripsi</td>
+                        <td>Pesan</td>
                         <td class="text-end">-</td>
                     </tr>
                     <tr>
@@ -50,8 +50,8 @@
                         <td class="text-end">Instan</td>
                     </tr>
                     <tr>
-                        <td>Tipe Transfer</td>
-                        <td class="text-end">Transfer ke Sesama CIMB NIAGA</td>
+                        <td>Jenis Transfer</td>
+                        <td class="text-end">Transfer Kekayaan</td>
                     </tr>
                 </tbody>
             </table>
