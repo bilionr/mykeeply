@@ -14,7 +14,7 @@
 
     <div class="amount-input">
         <span class="currency">Rp.</span>
-        <input type="text" id="amount" value="20.000" class="amount-field">
+        <input type="text" id="amount" value="0" class="amount-field">
     </div>
 
     <div class="message-input">

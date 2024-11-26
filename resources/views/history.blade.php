@@ -46,7 +46,7 @@
                     <div class="transfer-info">BNI • SUGENG HARIANTO</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 20.000</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     <div class="transfer-info">BCA • MUHAMMAD RAFLI MUSTARI</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 25.000</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                     <div class="transfer-info">BCA • MUHAMMAD RAFLI MUSTARI</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 25.200</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                     <div class="transfer-info">BCA • MUHAMMAD RAFLI MUSTARI</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 4.000.000</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     <div class="transfer-info">BCA • MUHAMMAD RAFLI MUSTARI</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 60.000</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                     <div class="transfer-info">BCA • MUHAMMAD RAFLI MUSTARI</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 300.000</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
                     <div class="transfer-info">BCA • MUHAMMAD RAFLI MUSTARI</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 200.000</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                     <div class="transfer-info">BCA • MUHAMMAD RAFLI MUSTARI</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 15.000</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                     <div class="transfer-info">BCA • MUHAMMAD RAFLI MUSTARI</div>
                 </div>
                 <div>
-                    <div>-Rp XXXX</div>
+                    <div>-Rp 65.000</div>
                     <div class="transfer-status">Berhasil</div>
                 </div>
             </div>
