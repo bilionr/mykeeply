@@ -4,7 +4,7 @@
         <span class="logo-text">MyKeeply</span>
     </div>
     <div class="nav-menu">
-        <a href="/?halamanUtama?" class="active">BERANDA</a>
+        <a href="{{route('halamanUtama')}}" class="active">BERANDA</a>
         <a href="#">PEMBAYARAN</a>
         <a href="/?pilihTujuan?">TRANSFER</a>
     </div>
