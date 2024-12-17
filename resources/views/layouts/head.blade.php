@@ -1,9 +1,9 @@
 <nav class="navbar">
     <img src="{{asset('images/mykeep.png')}}" alt="Logo" class="logo">
     <div class="nav-menu">
-        <a href="#">BERANDA</a>
+        <a href="#" class="active">BERANDA</a>
         <a href="#">PEMBAYARAN</a>
-        <a href="#" class="active">TRANSFER</a>
+        <a href="#">TRANSFER</a>
     </div>
     <div class="user-menu">
         <i class="fas fa-bell notification" aria-label="Notification"></i>
