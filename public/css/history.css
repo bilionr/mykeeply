@@ -1,92 +1,137 @@
 /* Reset some default styles */
-
-  .panel {
+.panel {
     background-color: #fff;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  .containerd{
+.containerd {
     display: flex;
     flex-direction: column;
-    justify-content: normal;
-    align-items: normal;
-    padding: 2.5% 20%;
-  }
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2% 5%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-  .card{
+.card {
     margin-top: 30px;
-    margin: 10px;
-    color:black;
-    padding: 0 10px;
-    font-weight: bold;
-  }
+    margin-bottom: 20px;
+    color: #333;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 800px;
+    font-weight: normal;
+}
 
-  .card h1 {
-     margin-top: 20px;
-  }
-  
-  .transfer-item {
+.card h1 {
+    margin-top: 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #444;
+    text-align: center;
+}
+
+.transfer-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
-    border-bottom: 1px solid #f0f0f0;
-    margin: 00px;
-  }
+    padding: 1rem 1.5rem;
+    border-bottom: 1.5px solid #e5e7eb;
+    margin: 0;
+    transition: all 0.2s ease;
+}
 
-  /* Solid border */
-    hr.solid {
-        border-top: 3px solid #bbb;
-  }
-  
-  
-  .transfer-date  {
+.transfer-item:hover {
+    background-color: #f0f4f8;
+    transform: translateX(8px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+hr.solid {
+    border-top: 2px solid #ddd;
+    margin: 1rem 0;
+}
+
+.transfer-date {
     color: #888;
-  }
- 
-  
-  .transfer-info {
-    color: #888;
-  }
-  
-  
-  .transfer-status {
-    font-weight: bold;
+    font-size: 0.95rem;
+    padding-right: 1.5rem;
+}
+
+.transfer-info {
+    color: #555;
+    font-size: 0.95rem;
+    padding-right: 1.5rem;
+}
+
+.transfer-status {
+    font-weight: 600;
     text-align: right;
-  }
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+    color: #34d399; /* Green for successful status */
+}
 
-  .month-container {
-    justify-content: center;
+.month-container {
     display: flex;
-    gap: 8px;
-    padding: 16px;
-    border-bottom: 1px solid #e5e7eb;
-    background-color: rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 24px;
+    border-bottom: 1.5px solid #e5e7eb;
+    background-color: rgba(0, 0, 0, 0.05);
     max-width: 100%;
     overflow-x: auto;
     flex-wrap: wrap;
-  }
+}
 
-  .month-button {
-    padding: 6px 16px;
-    border-radius: 16px;
-    border: none;
+.month-button {
+    padding: 8px 18px;
+    border-radius: 1rem;
+    border: 2px solid transparent;
     background-color: #e5e7eb;
     color: #4b5563;
     font-family: system-ui, -apple-system, sans-serif;
-    font-size: 14px;
+    font-size: 0.95rem;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     white-space: nowrap;
-  }
+    margin: 0 6px;
+}
 
-  .month-button:hover {
+.month-button:hover {
     background-color: #d1d5db;
-  }
+    border-color: #888;
+}
 
-  .month-button.active {
-    background-color: #888;
+.month-button.active {
+    background-color: #4b5563;
     color: white;
-  }
+    border-color: #4b5563;
+}
+
+@media (max-width: 768px) {
+    .containerd {
+        padding: 2% 5%;
+    }
+
+    .card {
+        padding: 16px;
+        width: 100%;
+    }
+
+    .month-button {
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    .transfer-item {
+        padding: 0.75rem 1rem;
+    }
+}

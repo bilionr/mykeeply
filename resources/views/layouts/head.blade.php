@@ -7,11 +7,17 @@
     </div>
     <div class="user-menu">
         <i class="fas fa-bell notification" aria-label="Notification"></i>
-        <i class="fas fa-user profile" aria-label="Profile"></i>
-        <i class="fas fa-cog settings" aria-label="Setting"></i>
-        <button class="logout-btn">Log Out</button>
+        <div class="profile-container">
+            <i class="fas fa-user profile" aria-label="Profile"></i>
+            <div class="profile-dropdown">
+                <a href="#">Profil</a>
+                <a href="#">Pengaturan</a>
+                <a href="#">Log Out</a>
+            </div>
+        </div>
     </div>
 </nav>
+
 
 
 <div class="sub-menu-container">

@@ -64,26 +64,50 @@ body {
     align-items: center;
 }
 
-.notification, .profile, .settings {
+.notification {
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
 
-.logout-btn {
-    background-color: white;
-    color: var(--primary-color);
-    border: none;
-    padding: 0.4rem 1.2rem;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    font-weight: 500;
+.profile-container {
+    position: relative;
 }
 
-.logout-btn:hover {
+.profile {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.profile-container:hover .profile-dropdown {
+    display: block;
+}
+
+.profile-dropdown {
+    display: none;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    min-width: 150px;
+    padding: 0.5rem 0;
+}
+
+.profile-dropdown a {
+    color: var(--primary-color);  /* Make the text color match the navbar */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.profile-dropdown a:hover {
     background-color: #DEDEDE;
 }
+
 
 /* Sub Menu Styles */
 .sub-menu-container {
