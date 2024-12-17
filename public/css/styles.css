@@ -64,7 +64,7 @@ body {
     align-items: center;
 }
 
-.notification, .profile {
+.notification, .profile, .settings {
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -305,14 +305,14 @@ body {
     color: #ddd;
 }
 
-.notification, .profile {
+.notification, .profile, .settings {
     color: white;
     font-size: 20px; 
     margin-right: 10px;
     transition: color 0.3s;
 }
 
-.notification:hover, .profile:hover {
+.notification:hover, .profile:hover, .settings:hover {
     color: #ddd;
 }
 

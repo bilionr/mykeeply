@@ -8,6 +8,7 @@
     <div class="user-menu">
         <i class="fas fa-bell notification" aria-label="Notification"></i>
         <i class="fas fa-user profile" aria-label="Profile"></i>
+        <i class="fas fa-cog settings" aria-label="Setting"></i>
         <button class="logout-btn">Log Out</button>
     </div>
 </nav>
