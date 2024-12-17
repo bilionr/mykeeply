@@ -1,7 +1,7 @@
 <nav class="navbar">
     <img src="{{asset('images/mykeep.png')}}" alt="Logo" class="logo">
     <div class="nav-menu">
-        <a href="/?halamanUtama?" class="active">BERANDA</a>
+        <a href="{{route('halamanUtama')}}" class="active">BERANDA</a>
         <a href="#">PEMBAYARAN</a>
         <a href="/?pilihTujuan?">TRANSFER</a>
     </div>
