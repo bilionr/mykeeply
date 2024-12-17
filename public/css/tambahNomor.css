@@ -69,11 +69,11 @@
 }
 
 .back-btn:hover {
-    background-color: #ddd;
+    background-color: #002d80;
 }
 
 .submit-btn:hover {
-    background-color: var(--secondary-color);
+    background-color: #002d80;
 }
 
 .footer {

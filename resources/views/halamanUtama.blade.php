@@ -33,22 +33,22 @@
         </div>
         <div class="action-icons">
         <div class="action-icon">
-            <img src="{{asset('images/kartu.png')}}" alt="Tambah Kartu" />
+            <img src="{{asset('images/tambahkartunew.png')}}" alt="Tambah Kartu" />
             <p>Tambahkan kartu</p>
             <p>atau bank</p>
         </div>
         <div class="action-icon">
-            <img src="{{asset('images/payment.png')}}" alt="Pembayaran" />
+            <img src="{{asset('images/pembayarannew.png')}}" alt="Pembayaran" />
             <p>Pembayaran</p>
         </div>
         <div class="action-icon">
-            <img src="{{asset('images/lainnya.png')}}" alt="Lainnya" />
+            <img src="{{asset('images/lainnyanew.png')}}" alt="Lainnya" />
             <p>Lainnya</p>
         </div>
         </div>
         <div class="search-bar">
         <label for="search">Kirim Lagi</label>
-        <img src="{{asset('images/cari.png')}}" alt="Search" class="search-icon" />
+        <img src="{{asset('images/carinew.png')}}" alt="Search" class="search-icon" />
         <p>Cari</p>
         </div>
     </div>

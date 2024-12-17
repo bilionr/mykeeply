@@ -49,8 +49,9 @@
 
             <!-- Actions -->
             <div class="d-flex justify-content-between mt-4">
-                <button class="btn btn-outline-secondary w-45">Batalkan</button>
-                <a href="{{ route('isipin') }}" class="btn btn-primary w-45">Transfer</a>
+                <button class="btn btn-danger w-45">Batalkan</button>
+                <a href="{{ route('isipin') }}" class="btn btn-success w-45">Transfer</a>
+
             </div>
         </div>
     </div>

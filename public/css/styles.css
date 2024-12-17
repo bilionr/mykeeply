@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #0a0b4c;
-    --secondary-color: #4a4c8c;
-    --gradient-bg: linear-gradient(180deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    --primary-color: #59B4C3;
+    --secondary-color: #EFF396;
+    --gradient-bg: linear-gradient(90deg, var(--secondary-color) 0%, var(--primary-color) 100%);
 }
 
 body {
@@ -173,7 +173,7 @@ body {
 }
 
 .contact-card {
-    background-color: #eee;
+    background-color: #ffff;
     padding: 1rem;
     border-radius: 10px;
     display: flex;
@@ -190,7 +190,7 @@ body {
 .contact-initial {
     width: 40px;
     height: 40px;
-    background-color: var(--secondary-color);
+    background-color: grey;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -222,7 +222,7 @@ body {
     border-radius: 25px;
     cursor: pointer;
     font-size: 0.9rem;
-    background-color: var(--primary-color);
+    background-color: #74E291;
     color: white;
 }
 
@@ -317,9 +317,9 @@ body {
 }
 
 .next-btn:hover {
-    background-color: var(--secondary-color);
+    background-color: #002d80;
 }
 
 .add-btn:hover {
-    background-color: var(--secondary-color);
+    background-color: #002d80;
 }

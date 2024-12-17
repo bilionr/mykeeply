@@ -8,7 +8,7 @@
 }
 
 .login-box {
-    background-color: #000458;
+    background-color: #5B9FFF;
     padding: 2rem;
     border-radius: 60px;
     height: 390px;
@@ -40,11 +40,11 @@
 }
 
 .form-group input::placeholder {
-    color: #000458;
+    color: #1F4780;
 }
 
 .login-button {
-    background-color: #8082AC;
+    background-color: #1F4780;
     color: #fff;
     padding: 0.75rem;
     border: none;
@@ -62,15 +62,15 @@
 .login-footer {
     margin-top: 1rem;
     font-size: 0.9rem;
-    color: #8082AC;
+    color: #ffffff;
 }
 
 .login-footer a {
-    color: #8082AC;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .login-footer span {
-    color: #8082AC;
+    color: #ffffff;
     margin: 0 0.5rem;
 }
