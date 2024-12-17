@@ -166,6 +166,44 @@ body {
     background-color: #DEDEDE;
 }
 
+.add-btn:hover {
+    background-color: #002d80;
+}
+.menu-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.menu-item {
+    text-decoration: none;
+    color: #495057;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.menu-item:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+.menu-item.active {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+.transfer-history {
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.transfer-history:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
 /* Main Content Styles */
 .main-content {
     padding: 2rem;
