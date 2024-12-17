@@ -13,17 +13,15 @@
     </div>
 </nav>
 
+
 <div class="sub-menu-container">
     <div class="sub-menu">
         <div class="menu-buttons">
-            <a href="{{route('halamanUtama')}}"></a>
-            <button class="send-btn">Kirim</button>
-            <button class="ask-btn">Minta</button>
-            <button class="contact-btn">Kontak</button>
+            <a href="{{route('halamanUtama')}}" class="menu-item active">Kirim</a>
+            <a href="" class="menu-item">Minta</a>
+            <a href="" class="menu-item">Kontak</a>
         </div>
-        <a href="{{route('history')}}">
-            <button class="transfer-history">Riwayat Transfer</button>
-        </a>
-
+        <a href="{{route('history')}}" class="transfer-history">Riwayat Transfer</a>
     </div>
 </div>
+
