@@ -1,7 +1,7 @@
 <div class="footer-content">
     <div>
         <img src="{{asset('images/mykeep.png')}}" alt="Footer Logo" class="footer-logo">
-        <p>Teman Setia dalam Setiap Transaksi</p>
+        <p class="footer-tagline">Teman Setia dalam Setiap Transaksi</p>
     </div>
     <div>
         <h3>Links</h3>
