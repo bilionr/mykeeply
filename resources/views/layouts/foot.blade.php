@@ -1,6 +1,7 @@
 <div class="footer-content">
-    <div>
+    <div class>
         <img src="{{asset('images/mykeep.png')}}" alt="Footer Logo" class="footer-logo">
+        <p class="footer-logo-text">MyKeeply</p> 
         <p class="footer-tagline">Teman Setia dalam Setiap Transaksi</p>
     </div>
     <div>

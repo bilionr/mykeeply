@@ -1,5 +1,8 @@
 <nav class="navbar">
-    <img src="{{asset('images/mykeep.png')}}" alt="Logo" class="logo">
+    <div class="logo-container">
+        <img src="{{asset('images/mykeep.png')}}" alt="Logo" class="logo">
+        <span class="logo-text">MyKeeply</span>
+    </div>
     <div class="nav-menu">
         <a href="/?halamanUtama?" class="active">BERANDA</a>
         <a href="#">PEMBAYARAN</a>

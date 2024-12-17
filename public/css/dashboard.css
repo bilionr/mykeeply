@@ -25,55 +25,7 @@ header {
   margin-left: 20px;
 }
 
-nav {
-  flex: 1;
-  display: flex;
-  justify-content: left;
-}
 
-nav a {
-  color: #cccccc;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  font-size: 12px;
-  padding-bottom: 5px;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-nav a.active,
-nav a:hover {
-  color: white;
-}
-
-nav a.active::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 2px;
-  background-color: white;
-  transition: width 0.3s ease;
-  width: 100%;
-}
-
-nav a:not(.active)::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 2px;
-  background-color: transparent;
-  width: 0;
-}
-
-nav a:hover::after {
-  background-color: white;
-  width: 100%;
-}
 
 .header-actions {
   display: flex;

@@ -35,12 +35,13 @@ body {
     height: 55px;
     background-color: white;
     border-radius: 50%;
+    margin-right: 0px;
 }
 
 .nav-menu {
     display: flex;
     gap: 3rem;
-    margin-left: 3rem;
+
 }
 
 .nav-menu a {
@@ -106,6 +107,25 @@ body {
 
 .profile-dropdown a:hover {
     background-color: #DEDEDE;
+}
+.logo-container {
+    display: inline-flex;
+    /* Menyusun logo dan teks secara horizontal */
+    align-items: center;
+    /* Menjaga agar logo dan teks tetap sejajar secara vertikal */
+    margin-right: 0;
+}
+.logo-text {
+    font-size: 1.5rem;
+    /* Ukuran teks */
+    font-weight: bold;
+    /* Membuat teks lebih tebal */
+    color: white;
+    /* Warna teks */
+    margin-left: 10px;
+    /* Memberikan jarak kecil antara logo dan teks */
+    display: inline-block;
+    /* Menyusun teks sejajar dengan logo */
 }
 
 
@@ -315,6 +335,12 @@ body {
 .footer-tagline {  /* Menambahkan kelas untuk teks tagline */
     font-weight: bold;  /* Menebalkan teks */
     font-size: 1rem;  /* Menyesuaikan ukuran font jika perlu */
+    margin-bottom: 1rem;
+}
+
+.footer-logo-text {
+    font-weight: bold;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
