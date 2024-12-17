@@ -8,7 +8,7 @@
 }
 
 .login-box {
-    background-color: #5B9FFF;
+    background-color: #59B4C3;
     padding: 2rem;
     border-radius: 60px;
     height: 390px;
@@ -44,8 +44,8 @@
 }
 
 .login-button {
-    background-color: #1F4780;
-    color: #fff;
+    background-color: #EFF396;
+    color: #1F4780;
     padding: 0.75rem;
     border: none;
     border-radius: 20px;
