@@ -30,7 +30,7 @@
                 <div class="profile-dropdown">
                     <a href="#">Profil</a>
                     <a href="#">Pengaturan</a>
-                    <a href="#">Log Out</a>
+                    <a href="{{route('login')}}">Log Out</a>
                 </div>
             </div>
         </div>
