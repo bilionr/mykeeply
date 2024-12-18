@@ -1,7 +1,41 @@
-@extends('layouts.app')
-<link rel="stylesheet" href="{{asset('css/dashboard.css')}}">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@yield('title', "MyKeeply")</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/tambahNomor.css')}}" rel='stylesheet'>
+    <link rel="stylesheet" href="{{asset('css/dashboard.css')}}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-@section('content')
+  </head>
+  <body>
+  <nav class="navbar">
+        <div class="logo-container">
+            <img src="{{asset('images/mykeep.png')}}" alt="Logo" class="logo">
+            <span class="logo-text">MyKeeply</span>
+        </div>
+        <div class="nav-menu">
+            <a href="{{route('halamanUtama')}}"  class="active">BERANDA</a>
+            <a href="">PEMBAYARAN</a>
+            <a href="">TRANSFER</a>
+        </div>
+        <div class="user-menu">
+            <i class="fas fa-bell notification" aria-label="Notification"></i>
+            <div class="profile-container">
+                <i class="fas fa-user profile" aria-label="Profile"></i>
+                <div class="profile-dropdown">
+                    <a href="#">Profil</a>
+                    <a href="#">Pengaturan</a>
+                    <a href="#">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
 
 
 <main class="dashboard">
@@ -143,6 +177,42 @@ profileIcon.addEventListener("click", () => {
 
 
 
-@endsection
 
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <footer class="footer">
+          <div class="footer-content">
+          <div class>
+              <img src="{{asset('images/mykeep.png')}}" alt="Footer Logo" class="footer-logo">
+              <p class="footer-logo-text">MyKeeply</p> 
+              <p class="footer-tagline">Teman Setia dalam Setiap Transaksi</p>
+          </div>
+          <div>
+              <h3>Links</h3>
+              <p>Pembayaran</p>
+              <p>Transfer</p>
+              <p>Top Up</p>
+          </div>
+          <div>
+              <h3>Support</h3>
+              <p>Contact Us</p>
+              <p>Privacy Policy</p>
+              <p>Terms & Conditions</p>
+          </div>
+          <div>
+              <h3>Follow Us</h3>
+              <div class="social-links">
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+          </div>
+      </div>
+
+    </footer>
+  </body>
+</html>

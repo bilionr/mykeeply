@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.layout')
 
 <link rel="stylesheet" href="{{asset('css/history.css')}}">
 

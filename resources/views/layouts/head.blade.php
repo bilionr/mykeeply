@@ -4,9 +4,9 @@
         <span class="logo-text">MyKeeply</span>
     </div>
     <div class="nav-menu">
-        <a href="{{route('halamanUtama')}}" class="active">BERANDA</a>
-        <a href="#">PEMBAYARAN</a>
-        <a href="/?pilihTujuan?">TRANSFER</a>
+        <a href="{{route('halamanUtama')}}">BERANDA</a>
+        <a href="">PEMBAYARAN</a>
+        <a href="" class="active">TRANSFER</a>
     </div>
     <div class="user-menu">
         <i class="fas fa-bell notification" aria-label="Notification"></i>
