@@ -1,20 +1,20 @@
 <div class="footer-content">
-    <div class>
+    <div>
         <img src="{{asset('images/mykeep.png')}}" alt="Footer Logo" class="footer-logo">
         <p class="footer-logo-text">MyKeeply</p> 
         <p class="footer-tagline">Teman Setia dalam Setiap Transaksi</p>
     </div>
     <div>
         <h3>Links</h3>
-        <p>Pembayaran</p>
-        <p>Transfer</p>
-        <p>Top Up</p>
+        <a href="#pembayaran">Pembayaran</a>
+        <a href="#transfer">Transfer</a>
+        <a href="#top-up">Top Up</a>
     </div>
     <div>
         <h3>Support</h3>
-        <p>Contact Us</p>
-        <p>Privacy Policy</p>
-        <p>Terms & Conditions</p>
+        <a href="#contact-us">Contact Us</a>
+        <a href="#privacy-policy">Privacy Policy</a>
+        <a href="#terms-and-conditions">Terms & Conditions</a>
     </div>
     <div>
         <h3>Follow Us</h3>
